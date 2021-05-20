@@ -1,0 +1,5 @@
+Web app deployment on AWS : https://www.youtube.com/watch?v=oBs8Z3Rs6zk
+
+iterating over a JSON in JavaScript: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
+
+API Link (intraday) : url = "https://cloud.iexapis.com/stable/stock/"+stock_symbol+"/intraday-prices?token=sk_0ee1843b5d13482388927e848ff8b787&chartLast=20"
