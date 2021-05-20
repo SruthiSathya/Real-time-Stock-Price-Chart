@@ -9,25 +9,27 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"><b>Real-time Stock Price Chart</b></a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active" style="margin-left: 50px;">
-            <a class="nav-link" href="#">Stock Price Chart</a>
-          </li>
-        </ul>
-      </div>
     </nav>
-    
-    <h3>Enter the stock label for which you want to see the real-time data.</h3>
+    <br>
+    <br>
+    <h3 style="text-align: center;">Enter the stock label for which you want to see the real-time data.</h3>
 
-        <form action="/action_page.php">
+        <form action="/action_page.php" style="text-align: center;">
             <label for="fname">Enter Stock Label:</label>
             <input type="text" id="fname" name="fname"><br><br>
         </form>
-            <button onclick="getSymbol()">submit</button>
+        <div class="center" style="margin: 0;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);">
+            <button onclick="getSymbol()" >submit</button>
+        </div>
+        <br>
+        <br>
 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <div id="chart_div"></div>
+    <div style="top:50%" id="chart_div"></div>
 
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
