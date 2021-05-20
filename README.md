@@ -26,3 +26,6 @@ Use any external libraries that you require.
 
 ## Other technologies
 You are free to implement this using other technologies that you are familiar with, including server-side. Please send your code with the submission if you take this route but you should deploy the live app to a cloud environment and submit a URL as we will not be building and running your code.
+
+## Programming Languages / Technologies used - HTML, JavaScript, Google Charts, AWS.
+## Project Demo : https://youtu.be/EE8CbkD8-HE
